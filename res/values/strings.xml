@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DRAWERS ITEM -->
+    <string-array name="planets_array">
+        <item>Notifications</item>
+        <item>My Products</item>
+        <item>Delivery Locations</item>
+        <item>About Us</item>
+        <item>Account Settings</item>
+        <item>All Brands</item>
+        <item>Recent Orders</item>
+        <item>Feedback</item>
+        <item>Request a product</item>
+        <item>Help</item>
+        <item>Sign in</item>
+    </string-array>
+    
+    <!-- APPLICATION -->
+    <string name="app_name">CoreShopping</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- MENU -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <!-- STRING -->
+	<string name="all_brands">All Brands</string>
+	<string name="rupee_symbol">\u20B9</string>
+    <string name="mrp">MRP :</string>
+    <string name="brand">Brand :</string>
+    <string name="availability">Availability :</string>
+    <string name="you_pay">You Pay :</string>
+    <string name="hint_search">Search</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="edit">Change</string>
+    <string name="continue_shopping">Buy More</string>
+    <string name="proceed">Proceed To Pay</string>
+    <string name="retry">Retry</string>
+    <string name="no_products_cart">"There are no products in your shopping cart.Search and add new products in your cart."</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

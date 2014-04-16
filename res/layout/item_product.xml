@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/shape_card"
+            android:orientation="horizontal"
+            >
+
+            <demo.vicshady.coreshopping.ui.utils.SquareImageView
+                android:id="@+id/product_imgview"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_launcher" />
+            
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/bg_color"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/product_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:text="egg 1pc"
+                    android:textColor="@color/light_grey" />
+                
+                <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_color"
+                />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/product_featured_price"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:layout_weight="1"
+                            android:text="Rs 100" />
+
+                        <TextView
+                            android:id="@+id/product_price"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="left|center_vertical"
+                            android:text="Rs 100"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/product_availability"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="left|center_vertical"
+                            android:textSize="12sp"
+                            android:text="Availability: In Stock" />
+
+<!--                         <TextView -->
+<!--                             android:id="@+id/button" -->
+<!--                             android:layout_width="fill_parent" -->
+<!--                             android:layout_height="match_parent" -->
+<!--                             android:layout_weight="0.7" -->
+<!--                             android:text="Rs 100" -->
+<!--                             android:paddingRight="3dp" -->
+<!--                             android:gravity="right|center_vertical" -->
+<!--                             android:textStyle="italic" /> -->
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
